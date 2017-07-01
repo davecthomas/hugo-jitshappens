@@ -1,0 +1,31 @@
+{{ $baseUrl := .Site.BaseURL }}
+<div class="authors">
+<ul class="authors">
+      {{ $authors := .Params.coaches }}
+      {{ $authorimages := .Params.authorimages }}
+      {{ $imagepath := .Site.Params.Post.author_image_path}}
+      {{ $node := . }}
+      {{/*
+        This is an important lesson learned about Hugo and golang: scratch is really the only place
+        where you can store temporary variables that cross the scope inside/outside of ranges
+      */}}
+      {{ $node.Scratch.Set "images" false }}
+      {{ $node.Scratch.Set "authors" false }}
+      {{ range $authors }}
+        {{ $authorname := . }}
+        {{ $node.Scratch.Set "authors" true }}
+
+        <li><a href="{{ $baseUrl }}coaches/{{ . | urlize }}">
+          {{- range $authorimages -}}
+              {{ $node.Scratch.Set "images" true }}
+              <div class="author-thumbnail" style="background-image: url('{{ $imagepath| printf "%s%s" $baseUrl}}{{ . | urlize }}');">
+              <div class="author-over-thumbnail">{{- $authorname -}}</div>
+            </div></a>
+          {{- end -}}
+          {{ if not ($node.Scratch.Get "images")}}
+              <i class="fa fa-user"></i>&nbsp;{{- $authorname -}}</a><span class="separator">|</span>
+          {{- end -}}
+        </li>
+    {{- end -}}
+</ul>
+</div>

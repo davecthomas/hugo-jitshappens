@@ -1,0 +1,30 @@
+{{ $baseUrl := .Site.BaseURL }}
+{{ $articleid := .Params.articleid}}
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    {{ with .Params.image }}
+        <img src="{{ $baseUrl }}{{ . }}" class="page-item-image"></img>
+    {{ end }}
+    <div class="page-item-content" onclick="redir({{ .Permalink }})">
+        <header>
+            {{/* if not .Date.IsZero }}
+                <time class="page-item-date">{{ .Date.Format "Mon Jan 02, 2006" }}</time>
+            {{ end */}}
+            <h2 class="page-item-title">{{ .Title }}</h2>
+            {{ $node := . }}
+            {{ $node.Scratch.Set "minimalextras" true }}
+            {{ partial "extra/article-meta.html" .}}
+        </header>
+        <p class="page-item-summary">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="page-item-btn shake {{ if .Params.redirect }}page-item-btn-red{{ end }}">
+            {{ if .Params.redirect }}Redirect{{ else }}More...{{ end }}
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>

@@ -1,0 +1,77 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    {{ if .RSSlink }}
+      <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+      <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+    {{ .Hugo.Generator }}
+    <meta name="generation-date" content="{{ .Now }}">
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
+    <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">
+    {{ partial "core/css.html" . }}
+    <script src="{{ .Site.BaseURL }}js/modernizr-latest.js"></script>
+    <script src="{{ .Site.BaseURL }}js/lazysizes.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/ls.noscript.min.js"></script>
+    <!-- Load jquery used for various plugins -->
+    <script src="{{ .Site.BaseURL }}js/jquery-2.1.4.min.js"></script>
+    {{ template "_internal/google_analytics.html" . }}
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    {{/* Fontsizer code */}}
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    {{ with .Params.redirect }}
+        <!-- Attempt redirect through refresh -->
+        <meta http-equiv="refresh" content="1; url={{ . }}">
+
+        <script>
+            // Meta-refresh failed, so attempt Javascript
+            window.location.href = "{{ . }}"
+        </script>
+    {{ end }}
+</head>

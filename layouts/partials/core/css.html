@@ -1,0 +1,39 @@
+{{ $baseurl := .Site.BaseURL}}
+<!-- Load materialize used to provide parts of theme visuals -->
+<link rel="stylesheet" href="{{ $baseurl }}css/materialize.min.css">
+
+<!-- Load font awesome used for various icons -->
+<link rel="stylesheet" href="{{ $baseurl }}css/font-awesome.min.css">
+
+{{/* Load Font */}}
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+{{ with .Site.Params.Highlight }}
+    <!-- Load highlight theme used for client-side syntax highlighting -->
+    <link rel="stylesheet" href="{{$baseurl }}css/styles/{{ .style }}.css">
+{{ end }}
+
+<!-- Load lightbox stylings -->
+<link rel="stylesheet" href="{{ $baseurl }}css/lightbox.css">
+
+<!-- Load main theme stylings -->
+<link rel="stylesheet" href="{{ $baseurl }}css/main.css">
+{{ with .Site.Params.Overrides }}
+{{ if eq .cssOverride true}}
+<!--override CSS in theme with con11 -->
+<link rel="stylesheet" href="{{ $baseurl }}css/{{.cssFile}}.css">
+{{ end }}
+{{ end }}
