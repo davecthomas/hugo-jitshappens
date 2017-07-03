@@ -21,8 +21,6 @@ Here's a checklist for organizing your trip to class:
 + Flip flops -- but leave them outside the mat room
 + A towel for wiping up sweat
 
-Find out what [the schedule]({{< ref "post/schedule.md" >}}) is. Gi versus no-gi training require different gear.
-
 ##### Gi
 
 A good gi will last you years, so don't go for the cheapos. There are no stores that sell good jiu-jitsu gis in Austin, so Google around and get something you like. Colors and patterns are cool. We aren't a traditional school that is stuck with old white kimonos.

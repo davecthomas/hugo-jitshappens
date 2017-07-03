@@ -10,6 +10,11 @@ h3{
       text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6);
 }
 
+.jitsfont{
+  font-family: 'Whoopass';
+      text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6);
+}
+
 .campton-font{
   font-family: 'Campton';
 }

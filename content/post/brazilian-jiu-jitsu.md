@@ -100,9 +100,6 @@ Brazilian Jiu-Jitsu is a refined and distant derivative of Japanese Jiu-Jitsu . 
 
 In 1914, Maeda moved to Brazil to help Japanese immigrants. There he met Gastï¿½o Gracie, the son of Scottish immigrant George Gracie. Gracie had assisted Maeda greatly, and in return, Maeda taught Judo to Gracie's son Carlos at Maeda's school in Brazil. Carlos, who was 14 when he started training, almost immediately started adapting the techniques to be more effective in open street fights where anything goes (vale tudo, in Portuguese). Carlos Gracie, like many fighters of his time, continued a tradition of "challenge matches" against fighters of various styles. He was famous throughout Brazil for his success in these fights. Later, Carlos taught his brothers Oswaldo, Jorge, Gastao and Helio. The first academy was opened in Rio de Janeiro in 1925. Carlos and Helio were responsible for creating the basis upon which Brazilian Jiu-Jitsu  exists today. Helio was small and frail, yet would consistently beat larger opponents. The Gracies began to emigrate to the United States after 1972, where they opened schools and hosted competitions and successful challenge matches. Most Gracie schools use the term "Gracie Jiu-Jitsu ." This is synonymous with Brazilian Jiu-Jitsu .
 
-#### Join Us!
-Visit [Austin Jiu-Jitsu](http://austinjiujitsu.com) to learn more about opportunities to explore Brazilian Jiu-Jitsu.
-
 ### About Head Coach David Thomas
 
 [About Coach Dave]({{< ref "post/dave-thomas.md" >}})

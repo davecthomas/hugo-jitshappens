@@ -8,7 +8,7 @@ weight = 40
 
 +++
 
-Austin Jiu-Jitsu is committed to giving to charitable organizations and donating volunteer time to community groups. In addition, we have sponsored many talented athletes through the years, based on their commitment, aptitude and financial need.
+Coach Dave Thomas is committed to giving to charitable organizations and donating volunteer time to community groups. In addition, He has sponsored many talented athletes through the years, based on their commitment, aptitude and financial need.
 
 Susan G. Komen for the Cure Austin.
 
@@ -38,7 +38,7 @@ Eanes Booster Club, a non-profit organization for Eanes Independent School Distr
 
 >I wanted to personally thank you for your contribution. Without donors like you, we could not have done this. All the money raised stays at the school to enrich the learning experience of the kids. Thank you again."<cite>Eanes Booster Club President</cite>
 
-AIDS Foundation via AIDS/LifeCycle 4 
+AIDS Foundation via AIDS/LifeCycle 4
 
 American Red Cross International Relief Fund via Red Cross of Central Texas
 

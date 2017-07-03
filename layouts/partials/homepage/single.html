@@ -33,7 +33,7 @@
                     {{ end }}
                 ></div>
                 <div class="row-colors center-align">
-                    <h3 class="con11-tagline ajjfont no-margin">{{ $tagline }}</h3>
+                    <h3 class="con11-tagline jitsfont no-margin">{{ $tagline }}</h3>
                 </div>
               </div>
         {{ end }}
@@ -82,13 +82,13 @@
                                 <!-- Show text permanently -->
                                 {{ if eq .always_show_text true }}
                                     <div class="center-items center-text fill-container black-overlay shake">
-                                        <h3 class="white-text campton-font">{{ .name }}</h3>
+                                        <h3 class="white-text jitsfont">{{ .name }}</h3>
                                     </div>
                                 {{ end }}
 
                                 {{ if not (or (eq .no_highlight true) .disable) }}
                                     <div class="highlight-block shake">
-                                        <h3 class="ajjgoldtext campton-font">{{ .name }}</h3>
+                                        <h3 class="ajjgoldtext jitsfont">{{ .name }}</h3>
                                     </div>
                                 {{ end }}
                             </div>
@@ -115,7 +115,7 @@
                                       </li>
                           {{/*  <li>|</li> */}}
                             {{ end }}
-                            <li><a href="{{ .companyHomeURL}}" target="{{ $target }}" class="ajjfont ajjalignlower ajjnowrap hoverglow shadow">{{ $.Site.Copyright | markdownify }}</a><span class="ajjcopy ajj_hidetiny">&copy; {{ $year }}&nbsp;</span></li>
+                            <li><a href="{{ .companyHomeURL}}" target="{{ $target }}" class="jitsfont ajjalignlower ajjnowrap hoverglow shadow">{{ $.Site.Copyright | markdownify }}</a><span class="ajjcopy ajj_hidetiny">&copy; {{ $year }}&nbsp;</span></li>
                         </ul>
                     </div>
                 {{ end }}

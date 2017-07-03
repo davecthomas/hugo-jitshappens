@@ -1,13 +1,13 @@
 # Overridden default settings
 # MUST have trailing slash
 # for staging test, uncomment this
-baseURL = "http://jitshappens.herokuapp.com/"
+baseURL = "http://jitshappens.com/"
 # baseURL = "http://austinjujitsu.com/"
 languageCode = "en-us"
 newContentEditor = "atom"
 theme = "grid-side"
-title = "Austin Jiu-Jitsu"
-copyright = "AustIn JIu-JItsu"
+title = "Jits Happens - Brazilian Jiu-Jitsu"
+copyright = "jits"
 
 # Default settings, included here for reference. Not required.
 archetypedir=               "archetype"
@@ -126,7 +126,7 @@ name = "not working"
 
 # Values under [params] will populate the .Site.Params variable for use in templates
 [params]
-title = "Austin Jiu-Jitsu"
+title = "Jits Happens - Brazilian Jiu-Jitsu"
 
 # Add social sharing
 sharetwitter = true
@@ -181,14 +181,14 @@ infinite_scroll = true
      # This is optional
      description = ""
 
-     tagline = "AustIn JIu-JItsu"
-     tagline2 = "Brazilian Jiu-Jitsu, Ground Fighting, & Submission Grappling."
+     tagline = "JIts Happens"
+     tagline2 = "Dave Thomas' Brazilian Jiu-Jitsu, Ground Fighting, & Submission Grappling."
 
 
      # This is optional
      email = ""
 
-     image = "img/Logo-Master.png"
+     image = "img/jits-happens.png"
 
      # redirect on click of main logo
      redirectOnClick = true
@@ -224,9 +224,9 @@ infinite_scroll = true
      #
      [[Params.Footer.List]]
 
-         icon_class = "map-marker"
-         icon_link = "https://goo.gl/G8FMu2"
-         target = "_blank"
+    #     icon_class = "map-marker"
+    #     icon_link = "https://goo.gl/G8FMu2"
+    #     target = "_blank"
 
       [[Params.Footer.List]]
 
@@ -238,21 +238,21 @@ infinite_scroll = true
      [[Params.Footer.List]]
 
          icon_class = "twitter"
-         icon_link = "http://twitter.com/austinjiujitsu"
+         icon_link = "http://twitter.com/davecthomas"
          # Links open in new tab
          target = "_blank"
 
      [[Params.Footer.List]]
 
          icon_class = "facebook"
-         icon_link = "http://www.facebook.com/austinjiujitsu.jitshappens"
+         icon_link = "http://www.facebook.com/davecthomasatx"
          # Links open in new tab
          target = "_blank"
 
      [[Params.Footer.List]]
 
          icon_class = "youtube"
-         icon_link = "http://www.youtube.com/davecthomasatx"
+         icon_link = "https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A"
          # Links open in new tab
          target = "_blank"
 
@@ -347,7 +347,7 @@ infinite_scroll = true
 
      [[Params.Cells.List]]
 
-         name = "Coaches"
+         name = "About Dave"
          always_show_text = true
          grayscale = true
          link = "coaches/"
@@ -359,15 +359,15 @@ infinite_scroll = true
          always_show_text = true
          grayscale = true
          link = "topics/"
-         image = "img/topics.png"
+         image = "img/jitshappens-square.png"
 
      [[Params.Cells.List]]
 
-         name = "Blog: Jits Happens"
+         name = "Articles"
          always_show_text = true
          grayscale = true
          outlink = "http://jitshappens.com"
-         image = "img/jits-happens.png"
+         image = "img/jitshappens-square.png"
 
      [[Params.Cells.List]]
 
@@ -383,7 +383,7 @@ infinite_scroll = true
        always_show_text = true
        grayscale = true
        link = "doing-good/"
-       image = "img/ajj-mask-logo.png"
+       image = "img/jitshappens-square.png"
 
 
     [[Params.Cells.List]]
