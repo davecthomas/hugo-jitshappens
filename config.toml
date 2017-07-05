@@ -181,14 +181,14 @@ infinite_scroll = true
      # This is optional
      description = ""
 
-     tagline = "JIts Happens"
-     tagline2 = "Dave Thomas' Brazilian Jiu-Jitsu, Ground Fighting, & Submission Grappling."
+     tagline = " "
+     tagline2 = "Brazilian Jiu-Jitsu, Ground Fighting, & Submission Grappling"
 
 
      # This is optional
      email = ""
 
-     image = "img/jits-happens.png"
+  #   image = "img/jits-happens.png"
 
      # redirect on click of main logo
      redirectOnClick = true
@@ -309,17 +309,43 @@ infinite_scroll = true
  #
  [Params.Cells]
 
+    [[Params.Cells.List]]
+
+       name = "About Dave"
+       always_show_text = true
+       grayscale = true
+       link = "coaches/"
+       image = "img/authors/dave-thomas.jpg"
+       #image_position = "left"
+
+
+   [[Params.Cells.List]]
+
+     name = "Dave's techniques at BJJTech.com"
+     always_show_text = true
+     grayscale = true
+     outlink = "http://bjjtech.com"
+     image = ""
+
+    [[Params.Cells.List]]
+
+        name = "Dave's jits writings"
+        always_show_text = true
+        grayscale = true
+        outlink = "http://jitshappens.com"
+        image = ""
+
      [[Params.Cells.List]]
 
          # The name to use with the cell, shows up on hover
-         name = "Info"
+         name = "The Basics"
 
          # The link to associate with the cell, used when clicked
          # do not start with /
          link = "post/"
 
          # The image to use as a background-image for the cell
-         image = "img/ajj-mask-logo.png"
+         image = ""
 
          # This uses the CSS background-position, given the image above is
          # set, useful when you want to adjust where the background-image
@@ -347,11 +373,11 @@ infinite_scroll = true
 
      [[Params.Cells.List]]
 
-         name = "About Dave"
-         always_show_text = true
-         grayscale = true
-         link = "coaches/"
-         image = "img/coaches.jpg"
+       name = "Doing Good"
+       always_show_text = true
+       grayscale = true
+       link = "doing-good/"
+       image = ""
 
      [[Params.Cells.List]]
         # The I is capitalized on purpose, since Pythia's lower case I is ugly
@@ -359,31 +385,7 @@ infinite_scroll = true
          always_show_text = true
          grayscale = true
          link = "topics/"
-         image = "img/jitshappens-square.png"
-
-     [[Params.Cells.List]]
-
-         name = "Articles"
-         always_show_text = true
-         grayscale = true
-         outlink = "http://jitshappens.com"
-         image = "img/jitshappens-square.png"
-
-     [[Params.Cells.List]]
-
-       name = "Techniques at BJJTech.com"
-       always_show_text = true
-       grayscale = true
-       outlink = "http://bjjtech.com"
-       image = "img/bjj-tech-logo-footer.png"
-
-     [[Params.Cells.List]]
-
-       name = "Doing Good"
-       always_show_text = true
-       grayscale = true
-       link = "doing-good/"
-       image = "img/jitshappens-square.png"
+         image = ""
 
 
     [[Params.Cells.List]]

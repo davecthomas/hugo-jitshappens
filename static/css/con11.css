@@ -14,7 +14,10 @@ h3{
   font-family: 'Whoopass';
       text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6);
 }
-
+.jitsfontw{
+  font-family: 'Whoopass';
+      text-shadow: 0 0 0.25rem rgba(255,255,255, 0.6), 0 0 0.25rem rgba(255,255,255, 0.6), 0 0 0.25rem rgba(255,255,255, 0.6);
+}
 .campton-font{
   font-family: 'Campton';
 }
@@ -73,11 +76,33 @@ h3{
   font-family: Campton;
   font-size: 1.5rem;
   display: inline-block;
-  border-radius: 3.3rem;
+
   color: rgba(255, 255, 255, 0.3);
   background-color: rgba(159,161,164, 0.23);
   padding: 5px 5px;
   margin: 0 auto;
+}
+.header-name1{
+  cursor: pointer;
+  font-family: Whoopass;
+  font-size: 8.5rem;
+  display: inline-block;
+  line-height: 1.3rem;
+  color: rgba(0,0,0, 0.9);
+  padding: 5px 5px;
+  margin: 0 auto;
+}
+.header-name2{
+  font-size: 3.79rem;
+  line-height: .2rem;
+}
+.header-name3{
+  font-size: 1.72rem;
+  color: rgba(102,102,69, 1);
+  opacity: .9;
+}
+.barely-visible{
+  opacity: .28;
 }
 /* Pulsing nudge on landing page */
 .pulsor {
@@ -782,8 +807,8 @@ ul.fontsizer li a:hover {
 .parallax__group {
     position: relative;
     vertical-align: top;
-    height: 500px; /* fallback for older browsers */
-    height: 60vh;
+    height: 400px; /* fallback for older browsers */
+    height: 30vh;
 
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
@@ -796,7 +821,7 @@ ul.fontsizer li a:hover {
 
 .parallax__layer {
     position: absolute;
-    top: 47px;
+    top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
@@ -870,6 +895,30 @@ ul.fontsizer li a:hover {
 .highlight-parent {
   background-color: rgba(0,0,0, 1);
 }
+.center-block{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0, .1);
+  opacity: 1;
+  transition: all 0.35s;
+}
 .highlight-block {
     display: -ms-flex;
     display: -webkit-flex;
@@ -941,6 +990,12 @@ element {
 }
 .shadow{
   text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6), 0 0 0.3em rgba(0, 0, 0, 0.6);
+}
+.glow{
+  text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.8), 0 0 0.2em rgba(255, 255, 255,  0.8), 0 0 0.2em rgba(255, 255, 255,  0.8);
+}
+.glow-tight{
+  text-shadow: 0 0 0.1rem rgba(255, 255, 255, 0.8), 0 0 0.1rem rgba(255, 255, 255,  0.8), 0 0 0.1rem rgba(255, 255, 255,  0.8);
 }
 ul.main-page-footer li {
     color: #FFFFFF;

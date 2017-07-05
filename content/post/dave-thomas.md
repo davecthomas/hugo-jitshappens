@@ -5,13 +5,18 @@ authorimages = ["dave-thomas.jpg"]
 date = "2016-07-31T15:25:09-05:00"
 tags = ["bjj"]
 title = "Coach Dave Thomas"
-weight = 9
+weight = 2
 
 +++
 
 >There is great happiness in the lifelong pursuit of human potential."<cite>-Coach David Thomas</cite>
 
-Dave Thomas of Seattle, WA is founding coach at Austin Jiu-Jitsu (Self-Defense Mentor, LLC). While Dave now trains and works out of Seattle, he is proud to have built Austin Jiu-Jitsu from a small group of friends in his garage to a thriving community of dedicated students from 2003 - 2017. He visits the gym when he comes to town to roll with his students and friends.
+Dave Thomas of Seattle, WA is founding coach at [Austin Jiu-Jitsu](http://austinjiujitsu.com). While Dave now trains and works in Seattle, he is proud to have built Austin Jiu-Jitsu from a small group of friends in his garage to a thriving community of dedicated students from 2003 - 2017. He visits the gym when traveling to Austin to roll with his students and friends.
+
+##### Where to find Dave
+
+Dave trains in Seattle at [Praxis BJJ](http://praxisbjj.com) and [Summit BJJ](http://summitbjj.org).
+Or, find him online on [social media]({{< ref "post/contact.md" >}}).
 
 ##### Some of Dave's contributions include
 * His student-centric approach, helping them on their personal journey toward mastery.

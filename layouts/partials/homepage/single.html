@@ -56,7 +56,7 @@
                         {{ else }}
                           <a href="{{ if .disable }}#!{{ else }}{{ $baseUrl }}{{ .link }}{{ end }}" class="flex-item">
                         {{ end}}
-                          <div class="highlight-parent shake">
+                          <div class="highlight-parent ">
                             <div class="cell
                                 fill-container
                                 no-padding
@@ -79,9 +79,12 @@
                                     33.33vh
                                 {{ end }};
                             ">
+                            <div class="center-block">
+                            <span class="valign center glow jitsfontw header-name1 barely-visible">jits<br/><span class="header-name2">happens</span></span>
+
                                 <!-- Show text permanently -->
                                 {{ if eq .always_show_text true }}
-                                    <div class="center-items center-text fill-container black-overlay shake">
+                                    <div class="center-block shake">
                                         <h3 class="white-text jitsfont">{{ .name }}</h3>
                                     </div>
                                 {{ end }}
@@ -93,6 +96,7 @@
                                 {{ end }}
                             </div>
                           </div>
+                        </div>
                         </a>
                     {{ end }}
                 </div>

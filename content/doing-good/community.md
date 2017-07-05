@@ -2,7 +2,7 @@
 topics = ["testimonials"]
 date = "2016-07-31T15:25:09-05:00"
 tags = ["bjj", "doing good"]
-title = "Community"
+title = "Giving Back"
 subt = "Giving Back"
 weight = 40
 
