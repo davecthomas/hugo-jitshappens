@@ -314,7 +314,7 @@ infinite_scroll = true
        name = "About Dave"
        always_show_text = true
        grayscale = true
-       link = "coaches/"
+       link = "post/dave-thomas"
        image = "img/authors/dave-thomas.jpg"
        #image_position = "left"
 
@@ -332,7 +332,7 @@ infinite_scroll = true
         name = "Dave's jits writings"
         always_show_text = true
         grayscale = true
-        outlink = "http://jitshappens.com"
+        outlink = "/blog"
         image = ""
 
      [[Params.Cells.List]]
