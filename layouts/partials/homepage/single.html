@@ -3,7 +3,7 @@
 {{ partial "core/head.html" . }}
 
 {{ $baseUrl := .Site.BaseURL }}
-{{ $year := .Now.Year}}
+{{ $year := now.Year}}
 
 <body class="page-colors">
   <script>
@@ -105,20 +105,13 @@
                     {{ $target := "_self"}}
                     <div class="row-colors right-align">
                         <ul class="main-page-footer horizontal no-bullets no-margin ajjgoldback">
-                            {{ range .List }}
-                                {{ $target := .target}}
-                                <li>
-                                <a href="{{ .icon_link }}" target="{{ $target }}" class="hoverglow shadow">
 
-                                      {{ if .icon_text }}
-                                      <span class="bjjt_tag ajjnowrap">{{- .icon_text}}</span>
-                                      {{ else }}
-                                        <i class="fa fa-{{ .icon_class }}"></i>
-                                      </a>
-                                      {{ end }}
-                                      </li>
-                          {{/*  <li>|</li> */}}
-                            {{ end }}
+                            <li><a href="/blogs/jits-happens"  target="" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-rss"></i></a></li>
+                            <li><a href="http://twitter.com/davecthomas"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://www.facebook.com/davecthomasatx"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://bjjtech.com"  target="" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-youtube"></i></a>
+
                             <li><a href="{{ .companyHomeURL}}" target="{{ $target }}" class="jitsfont ajjalignlower ajjnowrap hoverglow shadow">{{ $.Site.Copyright | markdownify }}</a><span class="ajjcopy ajj_hidetiny">&copy; {{ $year }}&nbsp;</span></li>
                         </ul>
                     </div>

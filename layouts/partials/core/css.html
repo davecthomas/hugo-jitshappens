@@ -3,7 +3,8 @@
 <link rel="stylesheet" href="{{ $baseurl }}css/materialize.min.css">
 
 <!-- Load font awesome used for various icons -->
-<link rel="stylesheet" href="{{ $baseurl }}css/font-awesome.min.css">
+<!-- to get rid of CORS error when running on localhost, changed from {{ $baseurl }}css/font-awesome.min.css -->
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 
 {{/* Load Font */}}
 <style>
@@ -33,8 +34,8 @@
 <!-- Load lightbox stylings -->
 <link rel="stylesheet" href="{{ $baseurl }}css/lightbox.css">
 
-<!-- Load main theme stylings -->
-<link rel="stylesheet" href="{{ $baseurl }}css/main.css">
+<!-- Load main theme stylings. I overrode theme's main.css here -->
+<link rel="stylesheet" href="{{ $baseurl }}css/con11.css">
 {{ with .Site.Params.Overrides }}
 {{ if eq .cssOverride true}}
 <!--override CSS in theme with con11 -->

@@ -1,11 +1,11 @@
 # Overridden default settings
 # MUST have trailing slash
 # for staging test, uncomment this
-baseURL = "http://jitshappens.com/"
+baseURL = "http://www.jitshappens.com/"
 # baseURL = "http://austinjujitsu.com/"
 languageCode = "en-us"
 newContentEditor = "atom"
-theme = "grid-side"
+theme = "grid-side-2017-07"
 title = "Jits Happens - Brazilian Jiu-Jitsu"
 copyright = "jits"
 
@@ -117,13 +117,6 @@ SectionPagesMenu = "Main"
 
 [Menus.Main]
 
-[[Menus.Main.One]]
-name= "Hi"
-
-
-[[Menus.Main.Two]]
-name = "not working"
-
 # Values under [params] will populate the .Site.Params variable for use in templates
 [params]
 title = "Jits Happens - Brazilian Jiu-Jitsu"
@@ -210,79 +203,9 @@ infinite_scroll = true
  [Params.Footer]
 
 
-    companyHomeURL = "http://jitshappens.com"
+    companyHomeURL = "http://www.jitshappens.com"
     target = "_self"
 
-     #
-     # Represents the list of icons and associated links to use in your
-     # footer and sidebar. Your copyright information will always be
-     # shown in the footer.
-     #
-     # The icon class is a font awesome classname.
-     #
-     #   e.g. twitter == "fa fa-twitter"
-     #
-     [[Params.Footer.List]]
-
-    #     icon_class = "map-marker"
-    #     icon_link = "https://goo.gl/G8FMu2"
-    #     target = "_blank"
-
-      [[Params.Footer.List]]
-
-         icon_class = "rss"
-         icon_link = "/blogs/jits-happens"
-         target = "_self"
-
-
-     [[Params.Footer.List]]
-
-         icon_class = "twitter"
-         icon_link = "http://twitter.com/davecthomas"
-         # Links open in new tab
-         target = "_blank"
-
-     [[Params.Footer.List]]
-
-         icon_class = "facebook"
-         icon_link = "http://www.facebook.com/davecthomasatx"
-         # Links open in new tab
-         target = "_blank"
-
-     [[Params.Footer.List]]
-
-         icon_class = "youtube"
-         icon_link = "https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A"
-         # Links open in new tab
-         target = "_blank"
-
-     [[Params.Footer.List]]
-
-         icon_class = "picture-o"
-         icon_link = "https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&pageId=none"
-         # Links open in new tab
-         target = "_blank"
-
-#     [[Params.Footer.List]]
-#
-#         icon_class = "google-plus"
-#         icon_link = "http://plus.google.com/+Austinjiujitsu1"
-#         # Links open in new tab
-#         target = "_blank"
-
-#     [[Params.Footer.List]]
-#
-#        icon_class = "instagram"
-#        icon_link = "http://www.instagram.com/davecthomas/"
-#        # Links open in new tab
-#        target = "_blank"
-
-      [[Params.Footer.List]]
-
-       icon_text = "BJJTech"
-       icon_link = "http://www.bjjtech.com/"
-       # Links open in new tab
-       target = "_self"
 
 # Post settings
 [Params.Post]
@@ -332,7 +255,7 @@ infinite_scroll = true
         name = "Dave's jits writings"
         always_show_text = true
         grayscale = true
-        outlink = "/blog"
+        link = "blog"
         image = ""
 
      [[Params.Cells.List]]

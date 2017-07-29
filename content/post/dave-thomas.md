@@ -15,8 +15,12 @@ Dave Thomas of Seattle, WA is founding coach at [Austin Jiu-Jitsu](http://austin
 
 ##### Where to find Dave
 
-Dave trains in Seattle at [Praxis BJJ](http://praxisbjj.com) and [Summit BJJ](http://summitbjj.org).
-Or, find him online on [social media]({{< ref "post/contact.md" >}}).
+Dave is a bit of a ronin in Seattle. Generally, he can be found at
+
+1. [Ivan Salaverry MMA & BJJ](http://www.ivansalaverrymma.com/). Ivan is a [Marcelo Alonso](https://www.mabjj.com) black belt. Marcelo is under [Carlson Gracie Sr](https://www.cgraciehq.com/carlson-gracie-sr).
+2. [Praxis BJJ](http://praxisbjj.com)
+3. [Summit BJJ](http://summitbjj.org)
+4. Or, find him online on [social media]({{< ref "post/contact.md" >}}).
 
 ##### Some of Dave's contributions include
 * His student-centric approach, helping them on their personal journey toward mastery.

@@ -5,12 +5,12 @@
     <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
-    {{ if .RSSlink }}
-      <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-      <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ if .RSSLink }}
+      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+      <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
     {{ .Hugo.Generator }}
-    <meta name="generation-date" content="{{ .Now }}">
+    <meta name="generation-date" content="{{ now }}">
     <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
     <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">

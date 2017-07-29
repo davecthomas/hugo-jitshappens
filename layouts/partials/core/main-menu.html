@@ -3,41 +3,16 @@
 <nav class="main-menu menu-colors ">
     <ul class="menu menu-colors no-list-float ajjgoldback">
         <li><a href="{{ $baseUrl }}" class="hoverglow shadow ajjnowrap jitsfont">jits</a></li>
-        {{/* Custom bars menu allows submenus
-        <li>
-            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
-
-            <!-- NOTE: Only support two levels of menus at the moment! -->
-            <ul class="menu flexible-width menu-colors no-list-float">
-                {{ $currentNode := . }}
-                {{ range .Site.Menus.Main }}
-                    <li {{ if or ($currentNode.IsMenuCurrent "Main" .) ($currentNode.HasMenuCurrent "Main" .) }}class="active"{{ end }}>
-                    {{ if .HasChildren }}
-                        <a href="#!">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                            <span class="drop-right"></span>
-                            <i class="fa fa-caret-right"></i>
-                        </a>
-                        <ul class="menu flexible-width menu-colors no-list-float">
-                            {{ range .Children }}
-                                <li {{ if $currentNode.IsMenuCurrent "Main" . }} class="active" {{ end }}>
-                                    <a href="{{ $baseUrl }}{{ .URL }}">{{ .Name }}</a>
-                                </li>
-                            {{ end }}
-                        </ul>
-                    {{ else }}
-                        <a href="{{ $baseUrl }}{{ .URL }}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    {{ end }}
-                    </li>
-                {{ end }}
-            </ul>
-        </li>
-        {{*/}}
         <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        <li><a href="/blogs/jits-happens"  target="" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-rss fa-2x"></i></a></li>
+        <li><a href="http://twitter.com/davecthomas"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="http://www.facebook.com/davecthomasatx"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="http://bjjtech.com"  target="" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A"  target="_blank" class="hoverglow shadow"><span class="bjjt_tag ajjnowrap ajjtinytext hoverglow"></span><i class="fa fa-youtube fa-2x"></i></a>
+        </li>
+
+
+
         {{ with .Site.Params.Footer }}
             <li class="blue-grey-text" style="border-top: 1px solid;"><!-- Separator --></li>
             {{ range .List }}
