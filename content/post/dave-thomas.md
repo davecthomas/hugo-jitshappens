@@ -15,12 +15,9 @@ Dave Thomas of Seattle, WA is founding coach at [Austin Jiu-Jitsu](http://austin
 
 ##### Where to find Dave
 
-Dave is a bit of a ronin in Seattle. Generally, he can be found at
-
-1. [Ivan Salaverry MMA & BJJ](http://www.ivansalaverrymma.com/). Ivan is a [Marcelo Alonso](https://www.mabjj.com) black belt. Marcelo is under [Carlson Gracie Sr](https://www.cgraciehq.com/carlson-gracie-sr).
-2. [Praxis BJJ](http://praxisbjj.com)
-3. [Summit BJJ](http://summitbjj.org)
-4. Or, find him online on [social media]({{< ref "post/contact.md" >}}).
+Dave can be found at
+[Ivan Salaverry MMA & BJJ](http://www.ivansalaverrymma.com/). Ivan is a [Marcelo Alonso](https://www.mabjj.com) black belt. Marcelo is under [Carlson Gracie Sr](https://www.cgraciehq.com/carlson-gracie-sr).
+Or, find him online on [social media]({{< ref "post/contact.md" >}}).
 
 ##### Some of Dave's contributions include
 * His student-centric approach, helping them on their personal journey toward mastery.
@@ -29,19 +26,19 @@ Dave is a bit of a ronin in Seattle. Generally, he can be found at
 * Development of a successful women's program, which enjoys a significantly high ratio of women to men -- which is unusual in BJJ
 * Developing the talent of his team of coaches
 * His prolific writing on training, coaching, and service toward the student in his blog, [Jits Happens](/blog)
-* The creation of [BJJTech.com](bjjtech.com), the largest single-sourced collection of BJJ techniques on the web.
+* The creation of [The BJJ Technique Catalog](http://bjjtech.herokuapp.com), the largest single-sourced collection of Brazilian Jiu-Jitsu techniques on the web.
 
-![Coach Dave](/img/authors/dave-thomas.jpg)
+![Coach Dave](/img/dave_marcelo_3rd_degree.jpg)
 
 ##### Background
 Dave has been has been training, competing, and coaching since January 1985.
 
 #### Life Off the Mats
-When he isn't training and coaching, Dave enjoys a great [career](https://www.linkedin.com/in/dcthomas) in software product entrepreneurship, where he is a product leader at [Indeed](http://indeed.com). He has two children, [Jenny]({{< ref "blog/jenny-thomas.md" >}}) and [Zach](https://www.youtube.com/user/budoatemaildotcom/search?query=zach), who both grew up on the mats with him at Austin Jiu-Jitsu. Dave's wife Christine previously led the Austin Jiu-Jitsu women's program and has a [career](https://www.linkedin.com/in/christinegthomas) in high-tech finance. Dave and Christine both studied business at the [University of Chicago's Booth School of Business](https://www.chicagobooth.edu/) (2016 and 2017 MBA grads).
+When he isn't training and coaching, Dave enjoys a great [career](https://www.linkedin.com/in/dcthomas) in software product entrepreneurship, where he is an engineering leader at Facebook. He has two grown children, [Jenny]({{< ref "blog/jenny-thomas.md" >}}) and [Zach](https://www.youtube.com/user/budoatemaildotcom/search?query=zach), who both grew up on the mats with him at Austin Jiu-Jitsu. Dave's wife Christine, a brown belt, previously led the Austin Jiu-Jitsu women's program and has a [career](https://www.linkedin.com/in/christinegthomas) in high-tech finance. Dave and Christine both studied business at the [University of Chicago's Booth School of Business](https://www.chicagobooth.edu/) (2016 and 2017 MBA grads).
 
 #### Accomplishments and Qualifications
 
-* Brazilian Jiu-Jitsu Black Belt (under Carlos Gracie Jr. Black Belt Travis Tooke). Coaching since 2003, training since 1995.
+* 3rd degree Brazilian Jiu-Jitsu Black Belt (under Carlson Gracie Sr. Professor Marcelo Alonso; Original black belt awarded by Ribeiro Black Belt Travis Tooke). Coaching since 2003, training since 1995.
 * 2008 North American Grappling (NAGA) Champion, Brown and Black belt Division (160 lb and under, Director, Gi)
 * 3 Black belts, including BJJ, Japanese Karate (AAKF, JKA Shotokan)
 * State, national, and international-level competition experience
@@ -52,7 +49,7 @@ When he isn't training and coaching, Dave enjoys a great [career](https://www.li
 * Diverse martial arts training background including MMA, Thai Boxing, Jeet Kune Do, Karate, Aikido, and Judo
 * Licensed by the Texas Department of Public Safety Private Security Bureau (2005)
 * Licensed by the Texas Combative Sports/Boxing Commission as an MMA Cornerman (2009)
-* Developed BJJTech.com, the largest single-sourced collection of BJJ techniques on the web.
+* Developed [BJJTech](bjjtech.herokuapp.com), the largest single-sourced collection of BJJ techniques on the web.
 
 #### Jits Happens
 Read Dave's blog, [Jits Happens](/blog)

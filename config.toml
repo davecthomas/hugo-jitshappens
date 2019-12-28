@@ -5,7 +5,7 @@ baseURL = "http://www.jitshappens.com/"
 # baseURL = "http://austinjujitsu.com/"
 languageCode = "en-us"
 newContentEditor = "atom"
-theme = "grid-side-2017-07"
+theme = "grid-side"
 title = "Jits Happens - Brazilian Jiu-Jitsu"
 copyright = "jits"
 
@@ -244,10 +244,10 @@ infinite_scroll = true
 
    [[Params.Cells.List]]
 
-     name = "Dave's techniques at BJJTech.com"
+     name = "Dave's techniques at BJJTech.herokuapp.com"
      always_show_text = true
      grayscale = true
-     outlink = "http://bjjtech.com"
+     outlink = "http://bjjtech.herokuapp.com"
      image = ""
 
     [[Params.Cells.List]]
